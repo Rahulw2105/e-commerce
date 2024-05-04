@@ -20,15 +20,15 @@ export default function Navbar() {
         <div className="user">
           <FaRegUser className />
         </div>
-        <div className="cart">
+        {/* <div className="cart">
           <FaShoppingCart />
           <span className="qty">{cartqty}</span>
-        </div>
+        </div> */}
       </div>
       <div className="section-2">
         <Dropdown>
           <Dropdown.Toggle variant="" id="dropdown-basic">
-            Dropdown Button
+            Categories
           </Dropdown.Toggle>
 
           <Dropdown.Menu>
